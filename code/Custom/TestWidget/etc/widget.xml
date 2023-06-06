@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget id="custom_test_widget" class="Custom\TestWidget\Block\Widget\TestWidget">
+        <label>Custom Test Widget</label>
+        <description>A custom test widget</description>
+        <parameters>
+            <parameter name="title" xsi:type="text" required="true" visible="true">
+                <label>Title</label>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>
